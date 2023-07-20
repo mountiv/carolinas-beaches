@@ -421,6 +421,8 @@
                   </div>
                 </header>
 
+                {% include 'collection-list' %}
+                
                 <div class="collection__dynamic-part">
                   <div class="collection__toolbar {% if collection.description != blank or collection.template_suffix == 'brand' %}collection__toolbar--bordered{% endif %}">
                     {%- if has_filters -%}
