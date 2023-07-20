@@ -1,0 +1,1536 @@
+{
+  "current": {
+    "heading_color": "#41474b",
+    "text_color": "#677279",
+    "accent_color": "#00b4db",
+    "link_color": "#00b4db",
+    "border_color": "#e1e3e4",
+    "background": "#f3f5f6",
+    "secondary_background": "#ffffff",
+    "error_color": "#ff0000",
+    "success_color": "#00aa00",
+    "primary_button_background": "#00b4db",
+    "primary_button_text_color": "#ffffff",
+    "secondary_button_background": "#948e8c",
+    "secondary_button_text_color": "#ffffff",
+    "header_background": "#e1e3e4",
+    "header_text_color": "#00b4db",
+    "header_light_text_color": "#46494a",
+    "header_accent_color": "#00b4db",
+    "product_on_sale_accent": "#5bbec6",
+    "product_in_stock_color": "#008a00",
+    "product_low_stock_color": "#ee0000",
+    "product_sold_out_color": "#8a9297",
+    "product_label_1_background": "#008a00",
+    "product_label_2_background": "#00a500",
+    "product_star_color": "#ffbd00",
+    "base_text_font_size": 16,
+    "heading_font": "din_next_n5",
+    "text_font": "dosis_n6",
+    "underline_links": true,
+    "animation_image_zoom": true,
+    "search_mode": "product",
+    "show_vendor": false,
+    "show_secondary_image": true,
+    "show_discount": true,
+    "discount_mode": "saving",
+    "product_price_position": "after_title",
+    "product_image_size": "natural",
+    "show_color_swatch": true,
+    "show_inventory_quantity": true,
+    "low_inventory_threshold": 0,
+    "show_reviews_badge": true,
+    "cart_type": "drawer",
+    "cart_empty_button_link": "shopify:\/\/collections\/all",
+    "cart_show_free_shipping_threshold": false,
+    "cart_free_shipping_threshold": "50",
+    "share_image": "shopify:\/\/shop_images\/making-a-social-media-post-on-laptop.jpg",
+    "social_facebook": "https:\/\/www.facebook.com\/carolinasbeaches",
+    "social_twitter": "https:\/\/twitter.com\/carolinas_store",
+    "social_pinterest": "https:\/\/www.pinterest.com\/carolinasbeaches",
+    "social_instagram": "https:\/\/instagram.com\/carolinasbeaches",
+    "social_vimeo": "https:\/\/vimeo.com\/carolinasbeaches",
+    "social_tumblr": "",
+    "social_youtube": "",
+    "social_linkedin": "https:\/\/linkedin.com\/in\/carolinasbeaches",
+    "social_snapchat": "https:\/\/snapchat.com\/add\/c_beaches",
+    "social_fancy": "",
+    "favicon": "shopify:\/\/shop_images\/android-chrome-192x192_3fa0b9cc-c77a-43ae-a202-9594e6ac9be6.png",
+    "checkout_header_image": "shopify:\/\/shop_images\/ocean-view-under-pier.jpg",
+    "checkout_logo_image": "shopify:\/\/shop_images\/CB_118461fe-8b8e-4f3a-8519-e2825794737e.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "shopify:\/\/shop_images\/beach-fishing_c1f45ba2-68e5-4eeb-8449-c22d071779bb.jpg",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "shopify:\/\/shop_images\/ocean-view-under-pier.jpg",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#00badb",
+    "checkout_button_color": "#00badb",
+    "checkout_error_color": "#ff0000",
+    "social_google_plus": "",
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "enable_sticky_header": false,
+          "logo": "shopify:\/\/shop_images\/CB_118461fe-8b8e-4f3a-8519-e2825794737e.png",
+          "logo_max_width": 155,
+          "mobile_logo_max_width": 160,
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "navigation_menu": "main-menu",
+          "desktop_navigation_layout": "inline",
+          "desktop_navigation_open_trigger": "hover",
+          "show_navigation_social_media": true,
+          "navigation_phone_number": "Call us +1 (252) 944-9413",
+          "navigation_email": "info@caroliasbeaches.store",
+          "show_condensed_search": true,
+          "show_search_filter": false,
+          "search_menu": "footer",
+          "show_search_menu_title": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "587d6746-022b-40da-90e2-98ff119c9646": {
+            "type": "links",
+            "settings": {
+              "menu": "main-menu"
+            }
+          },
+          "footer-1": {
+            "type": "links",
+            "settings": {
+              "menu": "footer"
+            }
+          },
+          "footer-2": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Newsletter",
+              "subheading": "<p><\/p><p>By entering your email address below, you consent to receiving our newsletter with access to our latest collections, events, special offers, and initiatives.<\/p>"
+            }
+          },
+          "a3e96eaa-60a7-443d-a880-80c32083bd2b": {
+            "type": "text",
+            "settings": {
+              "title": "About our store",
+              "content": "<p>Contact us for more information at:<\/p><p>Carolina's Beaches<br\/>236 Loggerhead Court, <br\/>Washington, North Carolina 27889,  United States<br\/><\/p><p><strong>Phone:<\/strong> +1 252-944-9413<br\/><strong>Email: <\/strong><a href=\"mailto:info@carolinasbeaches.store \" title=\"mailto:info@carolinasbeaches.store \">info@carolinasbeaches.store<\/a><\/p><p><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "587d6746-022b-40da-90e2-98ff119c9646",
+          "footer-1",
+          "footer-2",
+          "a3e96eaa-60a7-443d-a880-80c32083bd2b"
+        ],
+        "settings": {
+          "show_social_media": true,
+          "show_payment_icons": true,
+          "show_locale_selector": true,
+          "show_currency_selector": true,
+          "show_cookie_bar": false,
+          "text": "<p>Use this bar to show information about your cookie policy.<\/p>",
+          "accept_button": "Accept"
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "slide-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/waves-roll-up-to-the-sandy-beach-on-a-overcast-day.jpg",
+              "mobile_image": "shopify:\/\/shop_images\/waves-roll-up-to-the-sandy-beach-on-a-overcast-day.jpg",
+              "show_overlay": true,
+              "overlay_opacity": 0,
+              "text_color": "#0d90ac",
+              "title": "Come catch a wave with us.",
+              "content": "",
+              "content_position": "bottom_center",
+              "button_background": "#00b4db",
+              "button_text_color": "#fcf6f6",
+              "button_text": "Shop Now!",
+              "link": "shopify:\/\/collections\/all"
+            }
+          }
+        },
+        "block_order": [
+          "slide-0"
+        ],
+        "settings": {
+          "edge_to_edge": true,
+          "section_size": "small",
+          "carousel_effect": "fade",
+          "autoplay": true,
+          "cycle_speed": 5
+        }
+      },
+      "collection-list": {
+        "type": "collection-list",
+        "blocks": {
+          "collection-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "be-salty-matthew-5-13",
+              "image": "shopify:\/\/shop_images\/data_be095af5-4728-4a33-a6c9-e60d094de8d8.jpg"
+            }
+          },
+          "collection-4": {
+            "type": "collection",
+            "settings": {
+              "collection": "our-jewelry-collection",
+              "image": "shopify:\/\/shop_images\/0bfc347bd73545f8be8fbc43273070ca-Max_00b1511e-9b22-481d-b6bc-d6c2c592a188.jpg"
+            }
+          },
+          "collection-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "beachcombers-paradise"
+            }
+          },
+          "collection-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "fun-in-the-sun-our-apparel-collection"
+            }
+          },
+          "collection-5": {
+            "type": "collection",
+            "settings": {
+              "collection": "home-is-where-the-beach-is-our-home-decor-collection"
+            }
+          },
+          "collection-3": {
+            "type": "collection",
+            "settings": {
+              "collection": "pirates-treasures"
+            }
+          },
+          "e7a533d5-c099-4d27-9b02-f7987fbc3f20": {
+            "type": "collection",
+            "settings": {
+              "collection": "boardwalk"
+            }
+          },
+          "d45822ca-a85e-49ec-89b5-5b4e9b49bd28": {
+            "type": "collection",
+            "settings": {
+              "collection": "let-the-sea-set-you-free"
+            }
+          },
+          "59a0ac06-2942-470d-b7ef-7d049a67e767": {
+            "type": "collection",
+            "settings": {
+              "collection": "mermaid-melodies",
+              "image": "shopify:\/\/shop_images\/mermaid-baby-and-card.jpg"
+            }
+          },
+          "3d853e11-d45f-4a74-89e4-8fed14dac4ea": {
+            "type": "collection",
+            "settings": {
+              "collection": "sandy-toes-our-towel-collection"
+            }
+          },
+          "c43dd409-5a36-4a3a-8db1-59b66209316d": {
+            "type": "collection",
+            "settings": {
+              "collection": "sun-kissed-smiles-our-beauty-collection"
+            }
+          },
+          "a43a66e9-8e17-4728-a606-b5a984295fb7": {
+            "type": "collection",
+            "disabled": true,
+            "settings": {
+              "collection": ""
+            }
+          }
+        },
+        "block_order": [
+          "collection-2",
+          "collection-4",
+          "collection-0",
+          "collection-1",
+          "collection-5",
+          "collection-3",
+          "e7a533d5-c099-4d27-9b02-f7987fbc3f20",
+          "d45822ca-a85e-49ec-89b5-5b4e9b49bd28",
+          "59a0ac06-2942-470d-b7ef-7d049a67e767",
+          "3d853e11-d45f-4a74-89e4-8fed14dac4ea",
+          "c43dd409-5a36-4a3a-8db1-59b66209316d",
+          "a43a66e9-8e17-4728-a606-b5a984295fb7"
+        ],
+        "settings": {
+          "title": "Our collections",
+          "link_title": "View all",
+          "link": "shopify:\/\/collections",
+          "round_images": true,
+          "show_collection_title": true
+        }
+      },
+      "featured-product": {
+        "type": "featured-product",
+        "disabled": true,
+        "settings": {
+          "product": "",
+          "title": "Featured product",
+          "link_title": "Adjustable Laptop Desk",
+          "link_url": "shopify:\/\/products\/adjustable-folding-laptop-desk-1",
+          "show_vendor": true,
+          "show_sku": false,
+          "show_share_buttons": true,
+          "show_description": true,
+          "description_below_add_to_cart": false,
+          "selector_mode": "block",
+          "color_mode": "color",
+          "show_quantity_selector": true,
+          "show_reviews_badge": false,
+          "show_payment_button": true,
+          "image_size": "small",
+          "enable_image_zoom": true,
+          "enable_video_looping": false,
+          "zoom_effect": "outside",
+          "carousel_effect": "fade",
+          "show_inventory_quantity": false,
+          "low_inventory_threshold": 0
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "show_collection_image": true,
+          "collapse_collection_description": false,
+          "collection_image_size": "small",
+          "products_per_row": "4",
+          "default_products_per_page": 24,
+          "default_view_layout": "grid",
+          "show_quick_buy": "list_grid",
+          "show_quick_view": "list_grid",
+          "quick_links": "",
+          "quick_links_show_products_count": true,
+          "show_filters": false,
+          "show_filter_color_swatch": false,
+          "filter_type": "tag",
+          "open_group_filters_mode": "all_closed",
+          "filter_group_order": ""
+        }
+      },
+      "recently-viewed-products": {
+        "type": "recently-viewed-products",
+        "settings": {
+          "title": "Recently viewed",
+          "show_quick_buy": false
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_vendor": false,
+          "show_sku": false,
+          "show_share_buttons": true,
+          "show_taxes_included": true,
+          "selector_mode": "block",
+          "color_mode": "variant_image",
+          "show_quantity_selector": true,
+          "show_payment_button": true,
+          "image_size": "small",
+          "enable_image_zoom": true,
+          "enable_video_looping": true,
+          "zoom_effect": "outside",
+          "carousel_effect": "fade",
+          "show_inventory_quantity": false,
+          "low_inventory_threshold": 2,
+          "content_display_mode": "show_all_and_expand_description",
+          "tab_page_1_handle": "return-refund-policy",
+          "tab_page_2_handle": "",
+          "tab_page_3_handle": "",
+          "enable_reviews": true,
+          "show_reviews_badge": true,
+          "trust_title": "Payment & Security",
+          "show_payment_icons": true,
+          "show_shipping_estimator": false,
+          "shipping_estimator_default_country": "United States",
+          "show_refunds_policy": true
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like",
+          "show_quick_buy": false
+        }
+      },
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+          "show_announcement": false,
+          "background": "#29355e",
+          "text_color": "#f3f5f6",
+          "text": "Welcome to Carolina's Beaches!",
+          "text_position": "center",
+          "link": "",
+          "show_newsletter": true,
+          "newsletter_button": "Subscribe & Save",
+          "newsletter_title": "Newsletter",
+          "newsletter_content": "<p>Subscibe to get notified about products launches, special offers, and news. <\/p>"
+        }
+      },
+      "1542984811767": {
+        "type": "featured-collection",
+        "settings": {
+          "collection": "boardwalk",
+          "title": "Featured Collection ~ The Boardwalk",
+          "products_count": 12,
+          "layout": "horizontal",
+          "stack_desktop": true,
+          "show_quick_buy": true,
+          "link_title": "View All",
+          "link_url": "shopify:\/\/collections\/feature-collection"
+        }
+      },
+      "1542984842027": {
+        "type": "newsletter",
+        "disabled": true,
+        "settings": {
+          "title": "Newsletter",
+          "content": "<p>Subscribe to get notified about product launches, special offers and news.<\/p>"
+        }
+      },
+      "1542984882560": {
+        "type": "blog-posts",
+        "disabled": true,
+        "settings": {
+          "blog": "news",
+          "title": "Blog posts",
+          "link_title": "View all",
+          "show_category": true,
+          "show_author": true,
+          "show_date": true,
+          "show_excerpt": false,
+          "stack_mobile": false
+        }
+      },
+      "popups": {
+        "type": "popups",
+        "settings": {}
+      },
+      "text-with-icons": {
+        "type": "text-with-icons",
+        "blocks": {
+          "text-with-icons-1": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-plant",
+              "title": "Organic Ingredients",
+              "content": "<p>We sell products that are natural and environmentally friendly.<\/p>"
+            }
+          },
+          "text-with-icons-2": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-customer-support",
+              "title": "We are available 24\/7",
+              "content": "<p>Contact us by email or chat.<\/p>"
+            }
+          },
+          "text-with-icons-3": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-secure-payment",
+              "title": "Secure payments",
+              "content": "<p>You can pay by <strong>PayPal, Apple Pay, and Venmo<\/strong><\/p>"
+            }
+          },
+          "bc768e51-f82d-45e3-8544-434cd18ab033": {
+            "type": "item",
+            "settings": {
+              "icon": "bi-heart",
+              "title": "Customer Satisfaction",
+              "content": "<p>Our top priority is you.<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "text-with-icons-1",
+          "text-with-icons-2",
+          "text-with-icons-3",
+          "bc768e51-f82d-45e3-8544-434cd18ab033"
+        ],
+        "settings": {
+          "show_section": true,
+          "stack_mobile": true
+        }
+      },
+      "1592667909364": {
+        "type": "offers",
+        "disabled": true,
+        "blocks": {
+          "1592667909364-0": {
+            "type": "offer",
+            "settings": {
+              "title": "30 Days Money-back Guarantee!",
+              "content": "<p>Your satisfaction is important for us <\/p>"
+            }
+          },
+          "1592667909364-1": {
+            "type": "offer",
+            "settings": {
+              "title": "Worldwide Free shipping",
+              "content": "<p>We got you covered ! We deliver your goods with expedited  shipping &amp; delivery<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "1592667909364-0",
+          "1592667909364-1"
+        ],
+        "settings": {
+          "items_per_row": 2,
+          "stack_mobile": true
+        }
+      },
+      "1592668141082": {
+        "type": "mosaic",
+        "blocks": {
+          "1592668141082-4": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/O8ZlFsYdoj2Dixqq7Fib1VQeW0jesc4AqsdIjr9F.jpg",
+              "show_overlay": true,
+              "overlay_opacity": 50,
+              "background": "#1e2121",
+              "text_color": "#f2f6f8",
+              "title": "Fun in the Sun",
+              "content": "Swimwear and Coverups",
+              "content_position": "top_left",
+              "button_background": "#fcfcfc",
+              "button_text_color": "#2c2f2f",
+              "button_text": "Shop Now",
+              "link": "shopify:\/\/collections\/fun-in-the-sun-our-apparel-collection"
+            }
+          },
+          "1592668141082-1": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/data_be095af5-4728-4a33-a6c9-e60d094de8d8.jpg",
+              "show_overlay": true,
+              "overlay_opacity": 72,
+              "background": "#2a2727",
+              "text_color": "#f8fcfe",
+              "title": "Be Salty",
+              "content": "Matthew 5:13 \"You are the salt of the earth...\"",
+              "content_position": "middle_left",
+              "button_background": "#fafffe",
+              "button_text_color": "#454b4d",
+              "button_text": "Shop Now",
+              "link": "shopify:\/\/collections\/camera-accessories"
+            }
+          },
+          "1592668141082-2": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_2FFSZW13859_2FFSZW13859_R_S_NUB_2Feec677924aaf4262f04b8939036dba9b.jpg",
+              "show_overlay": true,
+              "overlay_opacity": 36,
+              "background": "#2b2f2f",
+              "text_color": "#ecf2f5",
+              "title": "The Boardwalk",
+              "content": "Women's Dresses, Skirts, Shorts, and Tops",
+              "content_position": "top_left",
+              "button_background": "#f7fafc",
+              "button_text_color": "#424747",
+              "button_text": "Shop Now",
+              "link": "shopify:\/\/collections\/boardwalk"
+            }
+          },
+          "1592668141082-3": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/H607726a6b5704576b4a07fd689864dcef.jpg",
+              "show_overlay": true,
+              "overlay_opacity": 50,
+              "background": "#161818",
+              "text_color": "#fcfcfc",
+              "title": "Beach Vibes",
+              "content": "Nautical Jewelry",
+              "content_position": "top_left",
+              "button_background": "#f6f9fa",
+              "button_text_color": "#333838",
+              "button_text": "Shop Now",
+              "link": "shopify:\/\/collections\/our-jewelry-collection"
+            }
+          },
+          "1592668141082-0": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/kids.jpg",
+              "show_overlay": true,
+              "overlay_opacity": 51,
+              "background": "#353c3c",
+              "text_color": "#fcfeff",
+              "title": "Pirates' Treasures",
+              "content": "Children's Apparel",
+              "content_position": "bottom_left",
+              "button_background": "#f4f8fa",
+              "button_text_color": "#1c1f1f",
+              "button_text": "Shop Now",
+              "link": "shopify:\/\/collections\/smart-watch"
+            }
+          }
+        },
+        "block_order": [
+          "1592668141082-4",
+          "1592668141082-1",
+          "1592668141082-2",
+          "1592668141082-3",
+          "1592668141082-0"
+        ],
+        "settings": {
+          "section_size": "large"
+        }
+      },
+      "1592668370220": {
+        "type": "rich-text",
+        "settings": {
+          "text_width": "wide",
+          "title": "About Carolina's Beaches",
+          "content": "<p>Welcome to Carolina's Beaches, your number one source everything beach related!  We're dedicated to provide high quality items at a very affordable cost to our customers! <\/p><p>Our passion at Carolina's Beaches is to bring you products to help you live a happy beach-bum life, no matter how far you life away from the coast.   <\/p><p>We hope you enjoy our products as much as we enjoy offering them to you. Our goal is to offer you the best products as the absolute cheapest price. We also love sharing Christian products to encourage you with your walk with Jesus. We hope our \"Be Salty\" collection aids in bringing the name of Jesus to as many people in our communities as possible.   <\/p><p><\/p><p>Romans 10:15 \"...The Scriptures say it is a beautiful sight to see even the feet of someone coming to preach the good news.\"<\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p>If you have any questions or comments, please don't hesitate to contact us!<\/p>",
+          "button_text": "Discover Our Products",
+          "button_link": "shopify:\/\/collections\/all"
+        }
+      },
+      "1592668463773": {
+        "type": "logo-list",
+        "disabled": true,
+        "blocks": {
+          "1592668463773-1": {
+            "type": "logo",
+            "settings": {
+              "link": ""
+            }
+          },
+          "1592668463773-2": {
+            "type": "logo",
+            "settings": {
+              "link": ""
+            }
+          },
+          "1592668463773-3": {
+            "type": "logo",
+            "settings": {
+              "link": ""
+            }
+          },
+          "1592668463773-4": {
+            "type": "logo",
+            "settings": {
+              "link": ""
+            }
+          },
+          "1592668463773-5": {
+            "type": "logo",
+            "settings": {
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1592668463773-1",
+          "1592668463773-2",
+          "1592668463773-3",
+          "1592668463773-4",
+          "1592668463773-5"
+        ],
+        "settings": {
+          "title": "Logo list",
+          "link_title": "",
+          "link": ""
+        }
+      },
+      "static-promotion-list": {
+        "type": "static-promotion-list",
+        "settings": {
+          "expand_items": false,
+          "section_size": "medium",
+          "stack_mobile": false
+        }
+      },
+      "static-recently-viewed-products": {
+        "type": "static-recently-viewed-products",
+        "settings": {
+          "show_section": true,
+          "title": "Recently viewed",
+          "show_quick_buy": true
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "collections_to_show": "all",
+          "show_collection_title": true,
+          "show_collection_overlay": true,
+          "collection_overlay_opacity": 20
+        }
+      },
+      "static-newsletter": {
+        "type": "static-newsletter",
+        "settings": {
+          "show_section": false,
+          "title": "Subscribe to our newsletter",
+          "content": "<p>Subscribe to get notified about product launches, special offers and news<\/p>",
+          "subtext": "",
+          "background": "#677279",
+          "text": "#ffffff"
+        }
+      },
+      "1611397303fda5bfb7": {
+        "type": "image-with-text",
+        "disabled": true,
+        "settings": {
+          "image_position": "left",
+          "image_width": 50,
+          "title": "USB-C hub Adapter",
+          "content": "<p>USB C Hub 5 in 1 Type C to SD\/TF Card Reader USB 3.1 HUB <\/p><p>High Speed Adapter <\/p><p>Modular Convertor Detachable <\/p><p>Compatible With Many devices <\/p><p><\/p><p><br\/><\/p>",
+          "button_text": "Shop Now",
+          "button_link": "shopify:\/\/products\/usb-c-hub-adapter"
+        }
+      },
+      "1613935867fcaabec0": {
+        "type": "promotion-list",
+        "disabled": true,
+        "blocks": {
+          "1613935867fcaabec0-0": {
+            "type": "item",
+            "settings": {
+              "show_overlay": true,
+              "overlay_opacity": 50,
+              "stretch_image": true,
+              "background": "#6f42ef",
+              "text_color": "#ffffff",
+              "title": "Your heading",
+              "content": "Tell more about your product, collection...",
+              "content_position": "top_left",
+              "button_background": "#ffffff",
+              "button_text_color": "#6f42ef",
+              "button_text": "Learn more",
+              "button_link": ""
+            }
+          },
+          "1613935867fcaabec0-2": {
+            "type": "item",
+            "settings": {
+              "show_overlay": true,
+              "overlay_opacity": 100,
+              "stretch_image": true,
+              "background": "#26c1ce",
+              "text_color": "#ffffff",
+              "title": "Your heading",
+              "content": "Tell more about your product, collection...",
+              "content_position": "top_left",
+              "button_background": "#ffffff",
+              "button_text_color": "#26c1ce",
+              "button_text": "Learn more",
+              "button_link": ""
+            }
+          },
+          "67f29618-5fe8-40f3-9176-c3bfc6bbd4cf": {
+            "type": "item",
+            "settings": {
+              "show_overlay": true,
+              "overlay_opacity": 61,
+              "stretch_image": true,
+              "background": "#000000",
+              "text_color": "#ffffff",
+              "title": "Your heading",
+              "content": "Tell more about your product, collection...",
+              "content_position": "top_left",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
+              "button_text": "Learn more",
+              "button_link": ""
+            }
+          },
+          "e2a12113-0186-48ca-ab34-0c1596679b9a": {
+            "type": "item",
+            "settings": {
+              "show_overlay": true,
+              "overlay_opacity": 44,
+              "stretch_image": true,
+              "background": "#000000",
+              "text_color": "#ffffff",
+              "title": "Your heading",
+              "content": "Tell more about your product, collection...",
+              "content_position": "top_left",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
+              "button_text": "Learn more",
+              "button_link": ""
+            }
+          },
+          "a48fa5e9-d466-4a26-83b2-411d60e986f1": {
+            "type": "item",
+            "settings": {
+              "show_overlay": true,
+              "overlay_opacity": 38,
+              "stretch_image": true,
+              "background": "#000000",
+              "text_color": "#ffffff",
+              "title": "Your heading",
+              "content": "Tell more about your product, collection...",
+              "content_position": "top_left",
+              "button_background": "#ffffff",
+              "button_text_color": "#000000",
+              "button_text": "Learn more",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1613935867fcaabec0-0",
+          "1613935867fcaabec0-2",
+          "67f29618-5fe8-40f3-9176-c3bfc6bbd4cf",
+          "e2a12113-0186-48ca-ab34-0c1596679b9a",
+          "a48fa5e9-d466-4a26-83b2-411d60e986f1"
+        ],
+        "settings": {
+          "expand_items": true,
+          "section_size": "small",
+          "stack_mobile": true
+        }
+      },
+      "25d34807-8028-4a4c-a38d-037685add1c0": {
+        "type": "rich-text",
+        "custom_css": [
+          "h2 {font-size: 30px;}"
+        ],
+        "settings": {
+          "text_width": "wide",
+          "title": "Carolina's Beaches",
+          "content": "<p>The Carolinas are home to some of the most beautiful beaches in our country. Our store is dedicated to help you live the beach life to its fullest. We have all the beach necessities to make life sunny and happy. We carry beauty products, beach towels, nautical jewelry, swimwear, apparel for women and children, beach toys, home decor, and so much more!  Discover our extensive collection of beach essentials designed to bring a touch of sunshine to your life. We also carry a unique collection of all things Jesus- related! <br\/><br\/>Our goal is to make your beach days truly memorable and your wallet truly thankful!<\/p>",
+          "button_text": "More About Us",
+          "button_link": "shopify:\/\/pages\/about-us"
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "enable_order_notes": true,
+          "show_payment_icons": true,
+          "gift_wrap_product": "",
+          "gift_wrap_text": "Do you want a gift wrap?",
+          "gift_wrap_button": "Add a gift wrap",
+          "show_shipping_estimator": true,
+          "shipping_estimator_default_country": "United States",
+          "trust_heading": "Our guarantees",
+          "upsell_heading": "Complete your cart",
+          "upsell_collection": "",
+          "upsell_products_count": 4
+        }
+      }
+    },
+    "content_for_index": [
+      "slideshow",
+      "25d34807-8028-4a4c-a38d-037685add1c0",
+      "1592668141082",
+      "collection-list",
+      "1592668370220",
+      "1592667909364",
+      "1611397303fda5bfb7",
+      "1613935867fcaabec0",
+      "1542984811767",
+      "1592668463773",
+      "featured-product",
+      "1542984882560",
+      "1542984842027"
+    ]
+  },
+  "presets": {
+    "Metal": {
+      "heading_color": "#1e2d7d",
+      "text_color": "#677279",
+      "accent_color": "#00badb",
+      "link_color": "#00badb",
+      "border_color": "#e1e3e4",
+      "background": "#f3f5f6",
+      "secondary_background": "#ffffff",
+      "error_color": "#ff0000",
+      "success_color": "#00aa00",
+      "primary_button_background": "#00badb",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#1e2d7d",
+      "secondary_button_text_color": "#ffffff",
+      "header_background": "#1e2d7d",
+      "header_text_color": "#ffffff",
+      "header_light_text_color": "#a3afef",
+      "header_accent_color": "#00badb",
+      "product_on_sale_accent": "#ee0000",
+      "product_in_stock_color": "#008a00",
+      "product_low_stock_color": "#ee0000",
+      "product_sold_out_color": "#8a9297",
+      "product_label_1_background": "#008a00",
+      "product_label_2_background": "#00a500",
+      "product_star_color": "#ffbd00",
+      "base_text_font_size": 16,
+      "heading_font": "din_next_n5",
+      "text_font": "din_next_n4",
+      "underline_links": true,
+      "animation_image_zoom": true,
+      "search_mode": "product,article",
+      "show_vendor": true,
+      "show_secondary_image": true,
+      "product_price_position": "after_title",
+      "product_image_size": "natural",
+      "show_discount": true,
+      "discount_mode": "saving",
+      "show_color_swatch": false,
+      "show_inventory_quantity": false,
+      "low_inventory_threshold": 0,
+      "show_reviews_badge": false,
+      "cart_type": "drawer",
+      "cart_empty_button_link": "shopify:\/\/collections\/all",
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "share_image": "",
+      "social_facebook": "",
+      "social_twitter": "",
+      "social_google_plus": "",
+      "social_pinterest": "",
+      "social_instagram": "",
+      "social_vimeo": "",
+      "social_tumblr": "",
+      "social_youtube": "",
+      "social_linkedin": "",
+      "social_snapchat": "",
+      "social_fancy": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#00badb",
+      "checkout_button_color": "#00badb",
+      "checkout_error_color": "#ff0000",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": 140,
+            "mobile_logo_max_width": 100,
+            "navigation_menu": "main-menu",
+            "desktop_navigation_layout": "inline",
+            "desktop_navigation_open_trigger": "hover",
+            "navigation_phone_number": "Call us 000-000-0000",
+            "navigation_email": "info@yourwebsite.com",
+            "search_menu": ""
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_social_media": true,
+            "show_payment_icons": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "edge_to_edge": true,
+            "section_size": "preserve_ratio",
+            "cycle_speed": 5
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2",
+            "collection-3",
+            "collection-4",
+            "collection-5"
+          ],
+          "settings": {
+            "title": "Our collections",
+            "link_title": "View all",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "product": "",
+            "title": "Featured product",
+            "selector_mode": "block",
+            "color_mode": "color",
+            "low_inventory_threshold": 0,
+            "zoom_effect": "outside",
+            "carousel_effect": "fade"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "collection_image_size": "small",
+            "default_view_layout": "grid",
+            "show_quick_view": "list",
+            "show_quick_buy": "list",
+            "quick_links": "",
+            "filter_type": "tag"
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "title": "Recently viewed"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "selector_mode": "block",
+            "color_mode": "color",
+            "low_inventory_threshold": 0,
+            "zoom_effect": "outside",
+            "carousel_effect": "fade",
+            "tab_page_1_handle": "",
+            "tab_page_2_handle": "",
+            "tab_page_3_handle": "",
+            "custom_security_badge": ""
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {}
+        },
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "background": "#1e2d7d",
+            "text_color": "#ffffff",
+            "text": "Announce something here",
+            "link": "",
+            "newsletter_button": "Subscribe & Save",
+            "newsletter_title": "Newsletter",
+            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1542984811767": {
+          "type": "featured-collection",
+          "settings": {
+            "collection": "",
+            "title": "Featured collection",
+            "products_count": 12,
+            "layout": "vertical",
+            "link_title": "View all"
+          }
+        },
+        "1542984842027": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Newsletter",
+            "content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1542984882560": {
+          "type": "blog-posts",
+          "settings": {
+            "blog": "news",
+            "title": "Blog posts"
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "1542984811767",
+        "collection-list",
+        "1542984842027",
+        "featured-product",
+        "1542984882560"
+      ]
+    },
+    "Wood": {
+      "heading_color": "#3a2a2f",
+      "text_color": "#3a2a2f",
+      "accent_color": "#ff6128",
+      "link_color": "#ff6128",
+      "border_color": "#e7e2de",
+      "background": "#f7f4f2",
+      "secondary_background": "#ffffff",
+      "error_color": "#f71b1b",
+      "success_color": "#48b448",
+      "primary_button_background": "#ff6128",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#3a2a2f",
+      "secondary_button_text_color": "#ffffff",
+      "header_background": "#3a2a2f",
+      "header_text_color": "#ffffff",
+      "header_light_text_color": "#e9e2dd",
+      "header_accent_color": "#ff6128",
+      "product_on_sale_accent": "#ee0000",
+      "product_in_stock_color": "#008a00",
+      "product_low_stock_color": "#ee0000",
+      "product_sold_out_color": "#d1d1d4",
+      "product_label_1_background": "#ff6128",
+      "product_label_2_background": "#a95ebe",
+      "product_star_color": "#ffb647",
+      "base_text_font_size": 15,
+      "heading_font": "itc_avant_garde_gothic_n5",
+      "text_font": "basic_commercial_n4",
+      "underline_links": true,
+      "animation_image_zoom": true,
+      "search_mode": "product,article,page",
+      "show_vendor": true,
+      "show_secondary_image": true,
+      "show_discount": true,
+      "discount_mode": "percentage",
+      "product_price_position": "after_title",
+      "product_image_size": "square",
+      "show_color_swatch": false,
+      "show_inventory_quantity": true,
+      "low_inventory_threshold": 1,
+      "show_reviews_badge": false,
+      "cart_type": "drawer",
+      "cart_empty_button_link": "shopify:\/\/collections\/all",
+      "cart_show_free_shipping_threshold": true,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#f7f4f2",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#ff6128",
+      "checkout_button_color": "#ff6128",
+      "checkout_error_color": "#f71b1b",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "logo": "",
+            "logo_max_width": 140,
+            "mobile_logo_max_width": 100,
+            "navigation_menu": "main-menu",
+            "desktop_navigation_layout": "inline",
+            "desktop_navigation_open_trigger": "hover",
+            "navigation_phone_number": "Call us 000-000-0000",
+            "navigation_email": "info@yourwebsite.com",
+            "search_menu": ""
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>"
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "subheading": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_social_media": true,
+            "show_payment_icons": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "mobile_image": "",
+                "text_color": "#ffffff",
+                "title": "Tell your story",
+                "content": "Tell your story",
+                "content_position": "bottomLeft",
+                "button_background": "#ffffff",
+                "button_text_color": "#000000",
+                "button_text": "Button",
+                "link": ""
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "edge_to_edge": true,
+            "section_size": "preserve_ratio",
+            "cycle_speed": 5
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-3": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-4": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            },
+            "collection-5": {
+              "type": "collection",
+              "settings": {
+                "collection": "",
+                "image": ""
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2",
+            "collection-3",
+            "collection-4",
+            "collection-5"
+          ],
+          "settings": {
+            "title": "Our collections",
+            "link_title": "View all",
+            "link": "shopify:\/\/collections"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "collection_image_size": "small",
+            "default_view_layout": "grid",
+            "show_quick_view": "list",
+            "show_quick_buy": "list",
+            "quick_links": "",
+            "filter_type": "tag"
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "title": "Recently viewed"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "selector_mode": "block",
+            "color_mode": "color",
+            "low_inventory_threshold": 0,
+            "zoom_effect": "outside",
+            "carousel_effect": "fade",
+            "tab_page_1_handle": "",
+            "tab_page_2_handle": "",
+            "tab_page_3_handle": "",
+            "custom_security_badge": ""
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {}
+        },
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "background": "#3a2a2f",
+            "text_color": "#ffffff",
+            "text": "Announce something here",
+            "link": "",
+            "newsletter_button": "Subscribe & Save",
+            "newsletter_title": "Newsletter",
+            "newsletter_content": "<p>A short sentence describing what someone will receive by subscribing<\/p>"
+          }
+        },
+        "1542984811767": {
+          "type": "featured-collection",
+          "settings": {
+            "collection": "",
+            "title": "Featured collection",
+            "products_count": 12,
+            "layout": "vertical",
+            "link_title": "View all"
+          }
+        },
+        "1550833441117": {
+          "type": "collection-with-image",
+          "settings": {
+            "collection": "",
+            "products_count": 12,
+            "image": "",
+            "background": "#3a2a2f",
+            "text_color": "#ffffff",
+            "title": "Our best sellers",
+            "content": "Shop our most popular products for this season.",
+            "button_background": "#e95d2b",
+            "button_text_color": "#ffffff",
+            "button_text": "Learn more",
+            "button_link": ""
+          }
+        },
+        "1555314133560": {
+          "type": "promotion-list",
+          "blocks": {
+            "1555314133560-0": {
+              "type": "item",
+              "settings": {
+                "image": "",
+                "show_overlay": false,
+                "stretch_image": false,
+                "background": "#6f42ef",
+                "text_color": "#ffffff",
+                "title": "Your heading",
+                "content": "Tell more about your product, collection...",
+                "button_background": "#ffffff",
+                "button_text_color": "#6f42ef",
+                "button_text": "Learn more",
+                "button_link": ""
+              }
+            },
+            "1555314133560-1": {
+              "type": "item",
+              "settings": {
+                "image": "",
+                "show_overlay": false,
+                "stretch_image": false,
+                "background": "#fc2a68",
+                "text_color": "#ffffff",
+                "title": "Your heading",
+                "content": "Tell more about your product, collection...",
+                "button_background": "#ffffff",
+                "button_text_color": "#fc2a68",
+                "button_text": "Learn more",
+                "button_link": ""
+              }
+            },
+            "1555314133560-2": {
+              "type": "item",
+              "settings": {
+                "image": "",
+                "show_overlay": false,
+                "stretch_image": false,
+                "background": "#26c1ce",
+                "text_color": "#ffffff",
+                "title": "Your heading",
+                "content": "Tell more about your product, collection...",
+                "button_background": "#ffffff",
+                "button_text_color": "#26c1ce",
+                "button_text": "Learn more",
+                "button_link": ""
+              }
+            }
+          },
+          "block_order": [
+            "1555314133560-0",
+            "1555314133560-1",
+            "1555314133560-2"
+          ],
+          "settings": {
+            "expand_items": false,
+            "section_size": "medium",
+            "stack_mobile": false
+          }
+        },
+        "1542984882560": {
+          "type": "blog-posts",
+          "settings": {
+            "blog": "news",
+            "title": "Blog posts"
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "1542984811767",
+        "1555314133560",
+        "collection-list",
+        "1550833441117",
+        "1542984882560"
+      ]
+    }
+  }
+}
