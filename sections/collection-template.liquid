@@ -834,6 +834,11 @@
       "default": true
     },
     {
+      "type": "collection",
+      "id": "mountiv_parent_collection",
+      "label": "Parent Collection"
+    },
+    {
       "type": "checkbox",
       "id": "collapse_collection_description",
       "label": "Collapse long description",
@@ -1012,6 +1017,19 @@
       "id": "filter_group_order",
       "label": "Group order",
       "info": "List items must be identical to the group name. If left empty, all groups will be displayed in alphabetical order. Example: Color, Brand, Size."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "collection",
+      "name": "Child Collection",
+      "settings": [
+        {
+          "label": "Select Child Collections",
+          "type": "collection",
+          "id": "mountiv_child_collection"
+        }
+      ]
     }
   ]
 }
