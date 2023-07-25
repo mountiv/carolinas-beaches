@@ -422,50 +422,6 @@
                 </header>
 
                 {% comment %} Mrs. Paula Snyder wants to show collection list here. {% endcomment %}
-                {%- if collection.title == "The Boardwalk" -%}
-                  <div class="scroller" style="margin-left: 30px">
-                    <div class="scroller__inner">
-                      <div class="collection-list">
-                        {%- for block in section.blocks -%}
-                          {%- assign collection = collections[block.settings.mountiv_child_collection] -%}
-
-                          <a href="{{ collection.url | default: '#' }}" class="collection-item" data-collection-index="{{ forloop.index0 }}" {{ block.shopify_attributes }}>
-                            {%- unless collection.empty? -%}
-                              {%- assign collection_image = block.settings.image | default: collection.image | default: collection.products.first.featured_image -%}
-
-                              <div class="collection-item__image-wrapper {% if section.settings.round_images %}collection-item__image-wrapper--rounded{% endif %}" style="background-image: url({{ collection_image | img_url: '1x1' }})">
-                                {%- capture supported_sizes -%}{%- render 'image-size', sizes: '300,400,500,600,700,800', image: collection_image -%}{%- endcapture -%}
-                                {%- assign image_url = collection_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-
-                                <div class="aspect-ratio" style="padding-bottom: 100%">
-                                  <img class="lazyload image--fade-in" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto" alt="{{ collection_image.alt | escape }}">
-
-                                  <noscript>
-                                    <img src="{{ collection_image | img_url: '450x' }}" alt="{{ collection_image.alt | escape }}">
-                                  </noscript>
-                                </div>
-                              </div>
-
-                              {%- if block.settings.mountiv_child_collection -%}
-                                <span class="collection-item__title text--strong">{{ collection.title }} {% render 'icon', icon: 'tail-right' %}</span>
-                              {%- endif -%}
-                            {%- else -%}
-                              <div class="collection-item__image-wrapper {% if section.settings.round_images %}collection-item__image-wrapper--rounded{% endif %}">
-                                {%- capture placeholder -%}{% cycle 'collection-1', 'collection-2', 'collection-3', 'collection-4', 'collection-5', 'collection-6' %}{%- endcapture -%}
-                                {{- placeholder | placeholder_svg_tag: 'placeholder-svg' -}}
-                              </div>
-
-                              {%- if section.settings.show_collection_title -%}
-                                <span class="collection-item__title text--strong">{{ 'home_page.onboarding.collection_title' | t }} {% render 'icon', icon: 'tail-right' %}</span>
-                              {%- endif -%}
-                            {%- endunless -%}
-                          </a>
-                        {%- endfor -%}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                {%- endif -%}
                 
                 <div class="collection__dynamic-part">
                   <div class="collection__toolbar {% if collection.description != blank or collection.template_suffix == 'brand' %}collection__toolbar--bordered{% endif %}">
@@ -878,11 +834,6 @@
       "default": true
     },
     {
-      "type": "collection",
-      "id": "mountiv_parent_collection",
-      "label": "Parent Collection"
-    },
-    {
       "type": "checkbox",
       "id": "collapse_collection_description",
       "label": "Collapse long description",
@@ -1061,19 +1012,6 @@
       "id": "filter_group_order",
       "label": "Group order",
       "info": "List items must be identical to the group name. If left empty, all groups will be displayed in alphabetical order. Example: Color, Brand, Size."
-    }
-  ],
-  "blocks": [
-    {
-      "type": "collection",
-      "name": "Child Collection",
-      "settings": [
-        {
-          "label": "Select Child Collections",
-          "type": "collection",
-          "id": "mountiv_child_collection"
-        }
-      ]
     }
   ]
 }

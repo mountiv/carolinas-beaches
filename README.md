@@ -7,3 +7,6 @@ theme download
 ```
 theme watch --allow-live
 ```
+
+- To add sub-collections, we can add metafiled into colllection.
+    - setting/custom data/collection

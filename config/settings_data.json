@@ -302,8 +302,34 @@
       },
       "collection-template": {
         "type": "collection-template",
+        "blocks": {
+          "2878f326-e87a-40ab-b40b-cc7a674c32f9": {
+            "type": "collection",
+            "settings": {
+              "mountiv_child_collection": "tops"
+            }
+          },
+          "055de1b1-1473-4763-9d8c-cb2936b6ba31": {
+            "type": "collection",
+            "settings": {
+              "mountiv_child_collection": "dresses"
+            }
+          },
+          "5569bb34-c96f-4606-9f96-6e550f36f093": {
+            "type": "collection",
+            "settings": {
+              "mountiv_child_collection": "shorts-and-shorts"
+            }
+          }
+        },
+        "block_order": [
+          "2878f326-e87a-40ab-b40b-cc7a674c32f9",
+          "055de1b1-1473-4763-9d8c-cb2936b6ba31",
+          "5569bb34-c96f-4606-9f96-6e550f36f093"
+        ],
         "settings": {
           "show_collection_image": true,
+          "mountiv_parent_collection": "boardwalk",
           "collapse_collection_description": false,
           "collection_image_size": "small",
           "products_per_row": "4",
@@ -384,9 +410,9 @@
       "1542984811767": {
         "type": "featured-collection",
         "settings": {
-          "collection": "boardwalk",
-          "title": "Featured Collection ~ The Boardwalk",
-          "products_count": 12,
+          "collection": "let-the-sea-set-you-free",
+          "title": "Featured Collection ~ Let the Sea Set You Free",
+          "products_count": 8,
           "layout": "horizontal",
           "stack_desktop": true,
           "show_quick_buy": true,
@@ -832,6 +858,30 @@
           "upsell_collection": "",
           "upsell_products_count": 4
         }
+      },
+      "bdefcbe5-7ed1-402a-8473-daaf7d952251": {
+        "type": "image-with-text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/WomanOwned-1.jpg",
+          "image_position": "left",
+          "image_width": 25,
+          "title": "Women Owned Business",
+          "content": "<p>Carolina's Beaches is a woman-owned business.<\/p><p><\/p><p><\/p><p>A <a href=\"https:\/\/www.mckinsey.com\/featured-insights\/employment-and-growth\/how-advancing-womens-equality-can-add-12-trillion-to-global-growth\" target=\"_blank\">McKinsey Global Institute <\/a>study found that advancing women's equality could add $12 trillion to the global economy by 2025. The study shows that number could jump to $28 trillion dollars.<\/p><p><\/p><p>Support local business as much as you can; especially those owned and operated by women!<\/p>",
+          "button_text": "",
+          "button_link": "shopify:\/\/collections\/all"
+        }
+      },
+      "a8ff10a5-0364-45ab-911a-67ecda36c977": {
+        "type": "image-with-text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/51726bba6b1b42be409b96c26c543a51.jpg",
+          "image_position": "right",
+          "image_width": 25,
+          "title": "Made in the USA",
+          "content": "<p>We strive to have products in our store that are made here in our beautiful country. We understand the importance of supporting America, boosting our economy here, and not relying on other countries to source products.<\/p><p>Products are labeled in the description \"Made in USA\".<\/p><p><\/p><p>“There is nothing wrong with America that cannot be cured by what is right with America.” – Bill Clinton<\/p>",
+          "button_text": "",
+          "button_link": "shopify:\/\/collections\/all"
+        }
       }
     },
     "content_for_index": [
@@ -847,7 +897,9 @@
       "1592668463773",
       "featured-product",
       "1542984882560",
-      "1542984842027"
+      "1542984842027",
+      "bdefcbe5-7ed1-402a-8473-daaf7d952251",
+      "a8ff10a5-0364-45ab-911a-67ecda36c977"
     ]
   },
   "presets": {
