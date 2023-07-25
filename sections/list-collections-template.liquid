@@ -46,7 +46,7 @@
         <div class="grid">
           {%- if section.settings.collections_to_show == 'all' -%}
             {%- for collection in collections -%}
-              {%- if collection.title != 'Dresses' and collection.title != 'Tops' and collection.title != 'Skirts, Skorts, and Shorts' %}
+              {%- if collection.metafields.custom.issubcollection != 1 %}
               {%- unless collection.template_suffix contains 'brand' -%}
                 <div class="grid__cell 1/2--tablet 1/3--lap-and-up">
                   <a href="{{ collection.url }}" class="collection-block-item {% if section.settings.show_collection_overlay %}collection-block-item--overlay{% endif %}">
