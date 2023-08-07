@@ -1,14 +1,8 @@
 # Carolinas Beaches Store
 
-### Paula Snyder
-- Telegram: +1 252 944 9413
-- Phone:  +1 252 944 9413
-- Email: psnyder1982@icloud.com
+`Uploaded: August 7, 2023`
 
-### Nazar Dobroznai
-- Telegram: mountivdev
-- Email: mountiv.solution@outlook.com
-
+![screencapture-carolinasbeaches-store-collections-boardwalk-2023-08-07-12_32_09](https://github.com/mountiv/carolinas-beaches/assets/121834775/f4327512-5027-40ff-9cf2-4e1d408f7119)
 
 ```
 theme download
