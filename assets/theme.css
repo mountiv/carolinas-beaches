@@ -4089,6 +4089,7 @@ img.lazyload[data-sizes=auto] {
 
 .collection-item__image-wrapper {
   margin-bottom: 15px;
+  margin-top: 15px;
   overflow: hidden;
 }
 
@@ -4098,6 +4099,7 @@ img.lazyload[data-sizes=auto] {
   z-index: 0;
   overflow: hidden;
   border-radius: 100%;
+  box-shadow: 0 0 10px rgb(159 158 165 / 80%);
 }
 
 .collection-item__image-wrapper img {
