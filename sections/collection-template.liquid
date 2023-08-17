@@ -332,15 +332,21 @@
                 {%- if section.settings.collection_image_size == 'preserve_ratio' -%}
                   {%- capture supported_sizes -%}{%- render 'image-size', sizes: '400,500,600,700,800,900,1000, 1200, 1400, 1600', image: collection.image -%}{%- endcapture -%}
                   {%- assign image_url = collection.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
-
                   <div class="collection__image-wrapper collection__image-wrapper--preserve-ratio">
                     <div class="aspect-ratio" style="padding-bottom: {{ 100.0 | divided_by: collection.image.aspect_ratio }}%">
                       <img class="lazyload image--fade-in" data-src="{{ image_url }}" data-sizes="auto" data-widths="[{{ supported_sizes }}]" alt="{{ collection.image.alt | escape }}">
                     </div>
                   </div>
               {%- else -%}
-                  <div class="collection__image-wrapper collection__image-wrapper--{{ section.settings.collection_image_size }}" style="background-image: url({{ collection.image | img_url: '1x1' }})">
-                    <div class="collection__image lazyload image--fade-in" data-bgset="{{ collection.image | img_url: '600x' }} 600w, {{ collection.image | img_url: '800x' }} 800w, {{ collection.image | img_url: '1000x' }} 1000w, {{ collection.image | img_url: '1200x' }} 1200w, {{ collection.image | img_url: '1500x' }} 1500w"></div>
+                  
+                  {% assign heroimage = collection.metafields.custom.heroimage %}
+                  {% assign cimage = collection.image %}
+                  {% if collection.metafields.custom.heroimage %}
+                    {% assign cimage = heroimage %}
+                  {%- endif -%}
+
+                  <div class="collection__image-wrapper collection__image-wrapper--{{ section.settings.collection_image_size }}" style="background-image: url({{ cimage | img_url: '1x1' }})">
+                    <div class="collection__image lazyload image--fade-in" data-bgset="{{ cimage | img_url: '600x' }} 600w, {{ cimage | img_url: '800x' }} 800w, {{ cimage | img_url: '1000x' }} 1000w, {{ cimage | img_url: '1200x' }} 1200w, {{ cimage | img_url: '1500x' }} 1500w"></div>
                   </div>
                 {%- endif -%}
               {%- endif -%}
