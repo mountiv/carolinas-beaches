@@ -42,6 +42,7 @@
     {{ content_for_header }}
 
     <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
+    <link rel="stylesheet" href="{{ 'custom.css' | asset_url }}">
 
     {% render 'microdata-schema' %}
 
@@ -139,6 +140,12 @@
 
     <main id="main" role="main">
       {{ content_for_layout }}
+
+      <div class="affiliate-div">
+        <a href="{{ 'https://af.uppromote.com/carolinas-beaches/register' }}" target="_blank">
+          <img src="{{ 'affiliate-w.png' | asset_url }}" alt="AFFILIATE">
+        </a>
+      </div>
     </main>
 
     {%- if request.page_type == 'blog' or request.page_type == 'article' or request.page_type == 'page' -%}

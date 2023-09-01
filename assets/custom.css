@@ -1,0 +1,39 @@
+div.smile-launcher-frame-container {
+    bottom: 40px !important;
+}
+div#trustedsite-tm-image {
+    margin-left: 27px !important;
+}
+.affiliate-div {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    left: 175px;
+    z-index: 29147483653 !important;
+}
+.affiliate-div a {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: solid 3px #bac0c3;
+    background-color: #ed145b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    animation: pulse-animation 1.8s infinite;
+}
+.affiliate-div a img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+@keyframes pulse-animation {
+    0% {
+        box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.2);
+    }
+    100% {
+        box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+    }
+}
