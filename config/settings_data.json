@@ -117,7 +117,7 @@
             "type": "text",
             "settings": {
               "title": "About our store",
-              "content": "<p>Contact us for more information at:<\/p><p>Carolina's Beaches<br\/>236 Loggerhead Court, <br\/>Washington, North Carolina 27889,  United States<br\/><\/p><p><strong>Phone:<\/strong> +1 252-944-9413<br\/><strong>Email: <\/strong><a href=\"mailto:info@carolinasbeaches.store \" title=\"mailto:info@carolinasbeaches.store \">info@carolinasbeaches.store<\/a><\/p><p><\/p>"
+              "content": "<p>Contact us for more information at:<\/p><p>IMF, LLC<br\/>Carolina's Beaches<br\/>236 Loggerhead Court, <br\/>Washington, North Carolina 27889,  United States<br\/><\/p><p><strong>Phone:<\/strong> +1 252-944-9413<br\/><strong>Email: <\/strong><a href=\"mailto:info@carolinasbeaches.store \" title=\"mailto:info@carolinasbeaches.store \">info@carolinasbeaches.store<\/a><\/p><p><\/p>"
             }
           }
         },
@@ -172,29 +172,37 @@
       "collection-list": {
         "type": "collection-list",
         "blocks": {
+          "collection-5": {
+            "type": "collection",
+            "settings": {
+              "collection": "home-is-where-the-beach-is-our-home-decor-collection"
+            }
+          },
           "a43a66e9-8e17-4728-a606-b5a984295fb7": {
             "type": "collection",
             "settings": {
-              "collection": "teachers-treasures"
+              "collection": "teachers-treasures",
+              "image": "shopify:\/\/shop_images\/Sc3dd76150b0d4bfa92da435894f24047z_c88fb8ef-8d91-45eb-bceb-1b007b301ff9.jpg"
             }
           },
           "collection-2": {
             "type": "collection",
             "settings": {
               "collection": "be-salty-matthew-5-13",
-              "image": "shopify:\/\/shop_images\/data_be095af5-4728-4a33-a6c9-e60d094de8d8.jpg"
+              "image": "shopify:\/\/shop_images\/data_baed5393-0c49-4ea7-97b4-b05a1b45c9b4.jpg"
+            }
+          },
+          "collection-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "beachcombers-paradise",
+              "image": "shopify:\/\/shop_images\/image_2FFPSP00445_2FFPSP00445_BR_F_NUB_2Ff060f3fb6c271550b0a1983fd346b68c_3aa65660-3fd6-4b4e-ada5-c1e568a3658a.jpg"
             }
           },
           "collection-1": {
             "type": "collection",
             "settings": {
               "collection": "fun-in-the-sun-our-apparel-collection"
-            }
-          },
-          "collection-5": {
-            "type": "collection",
-            "settings": {
-              "collection": "home-is-where-the-beach-is-our-home-decor-collection"
             }
           },
           "collection-3": {
@@ -206,7 +214,8 @@
           "e7a533d5-c099-4d27-9b02-f7987fbc3f20": {
             "type": "collection",
             "settings": {
-              "collection": "boardwalk"
+              "collection": "boardwalk",
+              "image": "shopify:\/\/shop_images\/image_2FFSZW13268_2FFSZW13268_P_S_NUB_2F4476bb18bb019ab406bb87d79fea1b53_c2631872-b6a3-437e-87c6-00ebf318f963.jpg"
             }
           },
           "collection-4": {
@@ -216,23 +225,10 @@
               "image": "shopify:\/\/shop_images\/0bfc347bd73545f8be8fbc43273070ca-Max_00b1511e-9b22-481d-b6bc-d6c2c592a188.jpg"
             }
           },
-          "collection-0": {
-            "type": "collection",
-            "settings": {
-              "collection": "beachcombers-paradise"
-            }
-          },
           "d45822ca-a85e-49ec-89b5-5b4e9b49bd28": {
             "type": "collection",
             "settings": {
               "collection": "let-the-sea-set-you-free"
-            }
-          },
-          "59a0ac06-2942-470d-b7ef-7d049a67e767": {
-            "type": "collection",
-            "settings": {
-              "collection": "mermaid-melodies",
-              "image": "shopify:\/\/shop_images\/mermaid-baby-and-card.jpg"
             }
           },
           "3d853e11-d45f-4a74-89e4-8fed14dac4ea": {
@@ -246,21 +242,28 @@
             "settings": {
               "collection": "sun-kissed-smiles-our-beauty-collection"
             }
+          },
+          "59a0ac06-2942-470d-b7ef-7d049a67e767": {
+            "type": "collection",
+            "settings": {
+              "collection": "mermaid-melodies",
+              "image": "shopify:\/\/shop_images\/mermaid-baby-and-card.jpg"
+            }
           }
         },
         "block_order": [
+          "collection-5",
           "a43a66e9-8e17-4728-a606-b5a984295fb7",
           "collection-2",
+          "collection-0",
           "collection-1",
-          "collection-5",
           "collection-3",
           "e7a533d5-c099-4d27-9b02-f7987fbc3f20",
           "collection-4",
-          "collection-0",
           "d45822ca-a85e-49ec-89b5-5b4e9b49bd28",
-          "59a0ac06-2942-470d-b7ef-7d049a67e767",
           "3d853e11-d45f-4a74-89e4-8fed14dac4ea",
-          "c43dd409-5a36-4a3a-8db1-59b66209316d"
+          "c43dd409-5a36-4a3a-8db1-59b66209316d",
+          "59a0ac06-2942-470d-b7ef-7d049a67e767"
         ],
         "settings": {
           "title": "Our collections",
@@ -273,11 +276,11 @@
       "featured-product": {
         "type": "featured-product",
         "settings": {
-          "product": "teaching-future-leaders",
-          "title": "Featured product",
-          "link_title": "Adjustable Laptop Desk",
-          "link_url": "shopify:\/\/products\/adjustable-folding-laptop-desk-1",
-          "show_vendor": true,
+          "product": "teaching-is-my-cardio",
+          "title": "Featured Product",
+          "link_title": "On Sale!",
+          "link_url": "shopify:\/\/products\/teaching-is-my-cardio",
+          "show_vendor": false,
           "show_sku": false,
           "show_share_buttons": true,
           "show_description": true,
@@ -285,9 +288,9 @@
           "selector_mode": "block",
           "color_mode": "color",
           "show_quantity_selector": true,
-          "show_reviews_badge": false,
+          "show_reviews_badge": true,
           "show_payment_button": true,
-          "image_size": "large",
+          "image_size": "medium",
           "enable_image_zoom": true,
           "enable_video_looping": false,
           "zoom_effect": "outside",
@@ -301,7 +304,7 @@
         "settings": {
           "show_collection_image": true,
           "collapse_collection_description": false,
-          "collection_image_size": "small",
+          "collection_image_size": "medium",
           "products_per_row": "4",
           "default_products_per_page": 24,
           "default_view_layout": "grid",
@@ -380,8 +383,8 @@
       "1542984811767": {
         "type": "featured-collection",
         "settings": {
-          "collection": "teachers-treasures",
-          "title": "Featured Collection ~Teacher Trinkets",
+          "collection": "sandy-toes-our-towel-collection",
+          "title": "Featured Collection ~Sandy Toes",
           "products_count": 6,
           "layout": "horizontal",
           "stack_desktop": true,
@@ -423,8 +426,8 @@
             "type": "item",
             "settings": {
               "icon": "bi-plant",
-              "title": "Organic Ingredients",
-              "content": "<p>We sell products that are natural and environmentally friendly.<\/p>"
+              "title": "Eco-friendly Products",
+              "content": "<p>Some of our products are natural and environmentally friendly. These items are identified in product descriptions.<\/p>"
             }
           },
           "text-with-icons-2": {
@@ -434,29 +437,11 @@
               "title": "Customer Support",
               "content": "<p>We are here to help you. Contact us by email, chat, or phone number for assistance.<\/p>"
             }
-          },
-          "text-with-icons-3": {
-            "type": "item",
-            "settings": {
-              "icon": "bi-secure-payment",
-              "title": "Secure payments",
-              "content": "<p>You can pay by <strong>PayPal, Apple Pay, and Venmo<\/strong><\/p>"
-            }
-          },
-          "bc768e51-f82d-45e3-8544-434cd18ab033": {
-            "type": "item",
-            "settings": {
-              "icon": "bi-heart",
-              "title": "Customer Satisfaction",
-              "content": "<p>Our top priority is you.<\/p>"
-            }
           }
         },
         "block_order": [
           "text-with-icons-1",
-          "text-with-icons-2",
-          "text-with-icons-3",
-          "bc768e51-f82d-45e3-8544-434cd18ab033"
+          "text-with-icons-2"
         ],
         "settings": {
           "show_section": true,
@@ -511,23 +496,6 @@
               "link": "shopify:\/\/collections\/be-salty-matthew-5-13"
             }
           },
-          "1592668141082-4": {
-            "type": "item",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/O8ZlFsYdoj2Dixqq7Fib1VQeW0jesc4AqsdIjr9F.jpg",
-              "show_overlay": true,
-              "overlay_opacity": 50,
-              "background": "#1e2121",
-              "text_color": "#f2f6f8",
-              "title": "Fun in the Sun",
-              "content": "Swimwear and Coverups",
-              "content_position": "top_left",
-              "button_background": "#fcfcfc",
-              "button_text_color": "#2c2f2f",
-              "button_text": "Shop Now",
-              "link": "shopify:\/\/collections\/fun-in-the-sun-our-apparel-collection"
-            }
-          },
           "1592668141082-2": {
             "type": "item",
             "settings": {
@@ -548,14 +516,14 @@
           "1592668141082-0": {
             "type": "item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/kids.jpg",
+              "image": "shopify:\/\/shop_images\/family-playing-in-morning-light.jpg",
               "show_overlay": true,
-              "overlay_opacity": 51,
+              "overlay_opacity": 36,
               "background": "#353c3c",
               "text_color": "#fcfeff",
-              "title": "Pirates' Treasures",
-              "content": "Children's Apparel",
-              "content_position": "bottom_left",
+              "title": "Let the Sea Set You Free",
+              "content": "Children's Ocean Collection",
+              "content_position": "bottom_center",
               "button_background": "#f4f8fa",
               "button_text_color": "#1c1f1f",
               "button_text": "Shop Now",
@@ -578,14 +546,31 @@
               "button_text": "Shop Now",
               "link": "shopify:\/\/collections\/our-jewelry-collection"
             }
+          },
+          "3381543f-86bc-4f75-a859-9c2496cd5271": {
+            "type": "item",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/stationery-and-pin-badges.jpg",
+              "show_overlay": true,
+              "overlay_opacity": 12,
+              "background": "#15ecec",
+              "text_color": "#ffffff",
+              "title": "Teacher Trinkets",
+              "content": "Our Teacher's Corner",
+              "content_position": "top_right",
+              "button_background": "#ffffff",
+              "button_text_color": "#41474b",
+              "button_text": "Shop Now",
+              "link": "shopify:\/\/collections\/teachers-treasures"
+            }
           }
         },
         "block_order": [
           "1592668141082-1",
-          "1592668141082-4",
           "1592668141082-2",
           "1592668141082-0",
-          "1592668141082-3"
+          "1592668141082-3",
+          "3381543f-86bc-4f75-a859-9c2496cd5271"
         ],
         "settings": {
           "section_size": "large"
@@ -596,7 +581,7 @@
         "settings": {
           "text_width": "wide",
           "title": "About Carolina's Beaches",
-          "content": "<p>Welcome to Carolina's Beaches, your number one source everything beach related!  We're dedicated to provide high quality items at a very affordable cost to our customers! <\/p><p>Our passion at Carolina's Beaches is to bring you products to help you live a happy beach-bum life, no matter how far you life away from the coast.   <\/p><p>We hope you enjoy our products as much as we enjoy offering them to you. Our goal is to offer you the best products as the absolute cheapest price. We also love sharing Christian products to encourage you with your walk with Jesus. We hope our \"Be Salty\" collection aids in bringing the name of Jesus to as many people in our communities as possible.   <\/p><p><\/p><p>Romans 10:15 \"...The Scriptures say it is a beautiful sight to see even the feet of someone coming to preach the good news.\"<\/p><p><\/p><p><\/p><p><\/p><p><\/p><p><\/p><p>If you have any questions or comments, please don't hesitate to contact us!<\/p>",
+          "content": "<p>Welcome to Carolina's Beaches, your number one source everything beach related! We're dedicated to provide high quality items at a very affordable cost to our customers!  Our passion at Carolina's Beaches is to bring you products to help you live a happy beach-bum life, no matter how far you life away from the coast. We opened April, 2023 and have enjoyed growing since then.  <\/p><p>We hope you enjoy our products as much as we enjoy offering them to you. Our goal is to offer you the best products as the absolute cheapest price. We also love sharing Christian products to encourage you with your walk with Jesus. We hope our \"Be Salty\" collection aids in bringing the name of Jesus to as many people in our communities as possible.   <\/p><p><\/p><p>Romans 10:15 \"...The Scriptures say it is a beautiful sight to see even the feet of someone coming to preach the good news.\"<\/p><p><\/p><p>We want you to know that our products are shipped by a third-party from a different location. We have searched the globe to find you the highest quality products, and we found them! Carolina's Beaches prides itself in selecting the best suppliers, therefore bringing you the absolute best deals!<\/p><p><\/p><p>If you have any questions or comments, please don't hesitate to contact us.<\/p>",
           "button_text": "Discover Our Products",
           "button_link": "shopify:\/\/collections\/all"
         }
@@ -852,6 +837,30 @@
           "button_text": "",
           "button_link": "shopify:\/\/collections\/all"
         }
+      },
+      "68fdd888-cbee-4ff0-a968-ef381542b419": {
+        "type": "image-with-text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/secure.jpg",
+          "image_position": "left",
+          "image_width": 25,
+          "title": "Secure Payments",
+          "content": "<p>We accept Discover, VISA, Mastercard, PayPal, Google Pay, Apple Pay, and Venmo. All payment methods are secure.<\/p>",
+          "button_text": "",
+          "button_link": "shopify:\/\/collections\/all"
+        }
+      },
+      "e7cecc67-55ea-4b68-bfbd-a182bb0f2df8": {
+        "type": "image-with-text",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/10461cd0.jpg",
+          "image_position": "left",
+          "image_width": 25,
+          "title": "Customer Satisfaction",
+          "content": "<p>Customer satisfaction guaranteed. We will strive to put you first and make your satisfaction our top priority.<\/p>",
+          "button_text": "",
+          "button_link": "shopify:\/\/collections\/all"
+        }
       }
     },
     "content_for_index": [
@@ -869,7 +878,9 @@
       "1542984882560",
       "1542984842027",
       "bdefcbe5-7ed1-402a-8473-daaf7d952251",
-      "a8ff10a5-0364-45ab-911a-67ecda36c977"
+      "a8ff10a5-0364-45ab-911a-67ecda36c977",
+      "68fdd888-cbee-4ff0-a968-ef381542b419",
+      "e7cecc67-55ea-4b68-bfbd-a182bb0f2df8"
     ]
   },
   "presets": {
