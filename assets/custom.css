@@ -1,5 +1,5 @@
 div.smile-launcher-frame-container {
-    bottom: 40px !important;
+    bottom: 27px !important;
 }
 div#trustedsite-tm-image {
     margin-left: 27px !important;
@@ -8,7 +8,7 @@ div#trustedsite-tm-image {
     position: fixed;
     width: 60px;
     height: 60px;
-    bottom: 40px;
+    bottom: 27px;
     left: 175px;
     z-index: 29147483653 !important;
 }
@@ -36,16 +36,5 @@ div#trustedsite-tm-image {
     }
     100% {
         box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
-    }
-}
-.affiliate-div{
-    display: block; /* Display the button by default */
-    animation: fadeIn 1s ease-in-out 1s forwards; /* Apply the animation */
-    opacity: 0; /* Initially set opacity to 0 */
-}
-  
-@keyframes fadeIn {
-    to {
-        opacity: 1; /* Fade in the button */
     }
 }

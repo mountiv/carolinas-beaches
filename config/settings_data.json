@@ -49,7 +49,7 @@
     "social_twitter": "https:\/\/twitter.com\/carolinas_store",
     "social_pinterest": "https:\/\/www.pinterest.com\/carolinasbeaches",
     "social_instagram": "https:\/\/instagram.com\/carolinasbeaches",
-    "social_vimeo": "https:\/\/vimeo.com\/carolinasbeaches",
+    "social_vimeo": "",
     "social_tumblr": "",
     "social_youtube": "",
     "social_linkedin": "",
@@ -74,12 +74,12 @@
         "type": "header",
         "settings": {
           "enable_sticky_header": false,
-          "logo": "shopify:\/\/shop_images\/CB_118461fe-8b8e-4f3a-8519-e2825794737e.png",
+          "logo": "shopify:\/\/shop_images\/carolinasbeaches.png",
           "logo_max_width": 155,
           "mobile_logo_max_width": 160,
           "show_locale_selector": true,
           "show_currency_selector": true,
-          "navigation_menu": "main-menu",
+          "navigation_menu": "header-menu",
           "desktop_navigation_layout": "inline",
           "desktop_navigation_open_trigger": "hover",
           "show_navigation_social_media": true,
@@ -172,17 +172,28 @@
       "collection-list": {
         "type": "collection-list",
         "blocks": {
+          "f46beab8-ac83-4ea2-809c-48ec42b25967": {
+            "type": "collection",
+            "settings": {
+              "collection": "summer-clearance"
+            }
+          },
+          "c43dd409-5a36-4a3a-8db1-59b66209316d": {
+            "type": "collection",
+            "settings": {
+              "collection": "sun-kissed-smiles"
+            }
+          },
           "collection-5": {
             "type": "collection",
             "settings": {
-              "collection": "home-is-where-the-beach-is-our-home-decor-collection"
+              "collection": "home-is-where-the-beach-is"
             }
           },
-          "a43a66e9-8e17-4728-a606-b5a984295fb7": {
+          "collection-3": {
             "type": "collection",
             "settings": {
-              "collection": "teachers-treasures",
-              "image": "shopify:\/\/shop_images\/Sc3dd76150b0d4bfa92da435894f24047z_c88fb8ef-8d91-45eb-bceb-1b007b301ff9.jpg"
+              "collection": "pirates-treasures"
             }
           },
           "collection-2": {
@@ -199,16 +210,17 @@
               "image": "shopify:\/\/shop_images\/image_2FFPSP00445_2FFPSP00445_BR_F_NUB_2Ff060f3fb6c271550b0a1983fd346b68c_3aa65660-3fd6-4b4e-ada5-c1e568a3658a.jpg"
             }
           },
+          "a43a66e9-8e17-4728-a606-b5a984295fb7": {
+            "type": "collection",
+            "settings": {
+              "collection": "teachers-treasures",
+              "image": "shopify:\/\/shop_images\/Sc3dd76150b0d4bfa92da435894f24047z_c88fb8ef-8d91-45eb-bceb-1b007b301ff9.jpg"
+            }
+          },
           "collection-1": {
             "type": "collection",
             "settings": {
               "collection": "fun-in-the-sun-our-apparel-collection"
-            }
-          },
-          "collection-3": {
-            "type": "collection",
-            "settings": {
-              "collection": "pirates-treasures"
             }
           },
           "e7a533d5-c099-4d27-9b02-f7987fbc3f20": {
@@ -237,12 +249,6 @@
               "collection": "sandy-toes-our-towel-collection"
             }
           },
-          "c43dd409-5a36-4a3a-8db1-59b66209316d": {
-            "type": "collection",
-            "settings": {
-              "collection": "sun-kissed-smiles-our-beauty-collection"
-            }
-          },
           "59a0ac06-2942-470d-b7ef-7d049a67e767": {
             "type": "collection",
             "settings": {
@@ -252,17 +258,18 @@
           }
         },
         "block_order": [
+          "f46beab8-ac83-4ea2-809c-48ec42b25967",
+          "c43dd409-5a36-4a3a-8db1-59b66209316d",
           "collection-5",
-          "a43a66e9-8e17-4728-a606-b5a984295fb7",
+          "collection-3",
           "collection-2",
           "collection-0",
+          "a43a66e9-8e17-4728-a606-b5a984295fb7",
           "collection-1",
-          "collection-3",
           "e7a533d5-c099-4d27-9b02-f7987fbc3f20",
           "collection-4",
           "d45822ca-a85e-49ec-89b5-5b4e9b49bd28",
           "3d853e11-d45f-4a74-89e4-8fed14dac4ea",
-          "c43dd409-5a36-4a3a-8db1-59b66209316d",
           "59a0ac06-2942-470d-b7ef-7d049a67e767"
         ],
         "settings": {
@@ -276,10 +283,10 @@
       "featured-product": {
         "type": "featured-product",
         "settings": {
-          "product": "teaching-is-my-cardio",
+          "product": "bind-my-wandering-heart",
           "title": "Featured Product",
           "link_title": "On Sale!",
-          "link_url": "shopify:\/\/products\/teaching-is-my-cardio",
+          "link_url": "shopify:\/\/products\/bind-my-wandering-heart",
           "show_vendor": false,
           "show_sku": false,
           "show_share_buttons": true,
@@ -383,9 +390,9 @@
       "1542984811767": {
         "type": "featured-collection",
         "settings": {
-          "collection": "sandy-toes-our-towel-collection",
-          "title": "Featured Collection ~Sandy Toes",
-          "products_count": 6,
+          "collection": "summer-clearance",
+          "title": "Featured Collection ~ Summer Clearance!!!",
+          "products_count": 12,
           "layout": "horizontal",
           "stack_desktop": true,
           "show_quick_buy": true,
@@ -417,6 +424,23 @@
       },
       "popups": {
         "type": "popups",
+        "blocks": {
+          "f15ec9e0-ca25-470f-9d60-9cdfa00ef71d": {
+            "type": "newsletter",
+            "settings": {
+              "show_only_on_index": true,
+              "show_only_for_visitors": true,
+              "show_only_once": true,
+              "title": "Welcome to life at the beach!",
+              "content": "<p>Enter your email below to subscribe to our newsletter for our insider offers and exclusive updates. <\/p>",
+              "show_newsletter": true,
+              "apparition_delay": 5
+            }
+          }
+        },
+        "block_order": [
+          "f15ec9e0-ca25-470f-9d60-9cdfa00ef71d"
+        ],
         "settings": {}
       },
       "text-with-icons": {
@@ -499,13 +523,13 @@
           "1592668141082-2": {
             "type": "item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/image_2FFSZW13859_2FFSZW13859_R_S_NUB_2Feec677924aaf4262f04b8939036dba9b.jpg",
+              "image": "shopify:\/\/shop_images\/young-woman-sitting-at-an-angle-and-smiling.jpg",
               "show_overlay": true,
               "overlay_opacity": 36,
               "background": "#2b2f2f",
               "text_color": "#ecf2f5",
               "title": "The Boardwalk",
-              "content": "Women's Dresses, Skirts, Shorts, and Tops",
+              "content": "Women's Apparel",
               "content_position": "top_left",
               "button_background": "#f7fafc",
               "button_text_color": "#424747",
@@ -516,7 +540,7 @@
           "1592668141082-0": {
             "type": "item",
             "settings": {
-              "image": "shopify:\/\/shop_images\/family-playing-in-morning-light.jpg",
+              "image": "shopify:\/\/shop_images\/cute-kid-on-steps.jpg",
               "show_overlay": true,
               "overlay_opacity": 36,
               "background": "#353c3c",
